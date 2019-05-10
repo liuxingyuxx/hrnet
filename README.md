@@ -14,7 +14,6 @@ python pose_estimation/video.py
 1. add high mAP mmdetection
 `python pose_estimation/demo_mmd.py`
 <br>
-
 2. do RP accuracy  test
 `cd tools && ./eval_coco.sh`
 <br>
