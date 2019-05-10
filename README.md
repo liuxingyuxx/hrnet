@@ -19,7 +19,7 @@ python pose_estimation/demo.py (for image)
 
 <br>
 
-2. do RP accuracy evaluation 
+2. do RP accuracy evaluation   
 `cd tools && ./eval_coco.sh`
 
 <br>
