@@ -12,13 +12,13 @@ python pose_estimation/demo.py (for image)
 <br><br>
 ## UPDATE 2019-05-21
 <br>
-1. add high mAP mmdetection
+1. add high mAP mmdetection   
 `python pose_estimation/demo_mmd.py`
 <br>
-2. do RP accuracy  test
+2. do RP accuracy evaluation 
 `cd tools && ./eval_coco.sh`
 <br>
-3. add simple tracking function 
+3. add simple tracking function  
 `python pose_estimation/pose_track.py`
 <br>
 
