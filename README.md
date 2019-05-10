@@ -6,6 +6,7 @@ python pose_estimation/video.py
 --display # 显示出来(display in screen)
 --camera # 通过网络摄像头作为视频的输入(open web camera by video input)
 
+python pose_estimation/demo.py (for image)
 ```
 
 <br><br>
