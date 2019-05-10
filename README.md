@@ -10,14 +10,17 @@ python pose_estimation/video.py
 
 
 ## UPDATE 2019-05-21
-add high mAP mmdetection
+<br>
+1. add high mAP mmdetection
 `python pose_estimation/demo_mmd.py`
 <br>
 
-do RP accuracy  test
+2. do RP accuracy  test
 `cd tools && ./eval_coco.sh`
-
-
+<br>
+3. add simple tracking function 
+`python pose_estimation/pose_track.py`
+<br>
 
 ---
 
@@ -25,19 +28,15 @@ do RP accuracy  test
 
 ```
 # 通过flow net2来平滑视频(smooth pose joints by flownet2)
-python pose_estimation/smooth.py
+python pose_estimation/smooth_flownet.py
 
 # 通过SGfilter, 最小二乘法和低次多项式平滑视频 (smooth pose joints by SG-filter)
-python pose_estimation/SGfilter.py
+python pose_estimation/smooth-sg.py
 
 ```
 
 [todo]
  > 使用flownet2来实现视频姿态track(add tracking module by flownet2)
-
- > 添加R-FCN、SSD (add other human bounding-box detector like R-FCN SSD)
-
-
 
 
 ---
