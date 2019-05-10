@@ -8,7 +8,7 @@ python pose_estimation/video.py
 
 ```
 
-
+<br><br>
 ## UPDATE 2019-05-21
 <br>
 1. add high mAP mmdetection
@@ -21,8 +21,7 @@ python pose_estimation/video.py
 `python pose_estimation/pose_track.py`
 <br>
 
----
-
+<br><br>
 ## imporove from origin code
 
 ```
@@ -33,7 +32,7 @@ python pose_estimation/smooth_flownet.py
 python pose_estimation/smooth-sg.py
 
 ```
-
+<br>
 [todo]
  > 使用flownet2来实现视频姿态track(add tracking module by flownet2)
 
